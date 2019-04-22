@@ -1,1 +1,5 @@
 #!/bin/bash
+
+timestamp=$(date +%s)
+
+echo "{\"version\":{\"timestamp\":\"${timestamp}\"}}"
