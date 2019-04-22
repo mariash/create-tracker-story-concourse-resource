@@ -1,4 +1,4 @@
-FROM concourse/buildroot:base
+FROM concourse/buildroot:curl
 
 ADD check /opt/resource/
 ADD in /opt/resource/
