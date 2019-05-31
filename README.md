@@ -4,7 +4,7 @@ Concourse resource used to create Pivotal Tracker stories. Inspired by https://g
 
 ## out
 
-Creates the tracker story with the following parameters:
+Creates the tracker story with the following parameters at the top of the backlog:
 
 ```
 - put: create-tracker-story-concourse-resource
@@ -14,7 +14,6 @@ Creates the tracker story with the following parameters:
     TRACKER_API_TOKEN: "some-token"
     TRACKER_STORY_NAME_PREFIX: "The Triumphant Herald says: "
     TRACKER_STORY_NAME: "Build failed!"
-    TRACKER_STORY_STATE: unscheduled
     TRACKER_STORY_TYPE: feature
     TRACKER_STORY_ESTIMATE: 0
 ```
